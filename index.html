@@ -41,11 +41,148 @@ https://www.tooplate.com/view/2122-nano-folio
       <h1>My Work</h1>
     </div>
 
-    <section class="tm-flex-center tm-p-50 tm-mb-50 tm-bgcolor-3 tm-border-rounded">
+    <section class="tm-about tm-p-50 tm-mb-50 tm-bgcolor-3 tm-border-rounded">
+      <div>
+				<img src="img/breakout.png" class="tm-border-rounded"" width=90%>
+			</div>
+			<div class="tm-flex-center">
+        <i class="fas fa-circle fa-2x"></i>
+        <h1>Arduino Breakout</h1>
+        <p class="tm-mb-0" style="text-align: right;">
+          For my CMP101 project in first year, I chose to create a version of the Atari game Breakout for the Arduino. 
+          I used C with a number of libraries to control different hardware devices including an LCD display, a 7-segment display and a buzzer.
+          I used a potentiometer and some buttons for input.
+        </p>
+      </div>
+		</section>
+
+    <section class="tm-about tm-p-50 tm-mb-50 tm-bgcolor-3 tm-border-rounded">
+			<div class="tm-flex-center">
+        <i class="fas fa-rocket fa-2x"></i>
+        <h1>Asteroids</h1>
+        <p class="tm-mb-0" style="text-align: left;">
+          For my CMP105 project in first year, I made a version of Asteroids using the SFML libraries.
+          This was done again in C++ without a game engine, using the rendering, input and sound elements of SFML.
+          I spent a lot of time on creating a neat UI system as well as a reasonably framerate-independent physics system.
+          Another challenge in this project was the efficient management of dynamic entities, such as the bullets from the rocket and the asteroids themselves.
+        </p>
+      </div>
+      <div>
+				<img src="img/asteroids.png" class="tm-border-rounded"" width=90% align="right"">
+			</div>
+		</section>
+
+    <section class="tm-about tm-p-50 tm-mb-50 tm-bgcolor-3 tm-border-rounded">
+      <div>
+				<img src="img/203.png" class="tm-border-rounded"" width=90%>
+			</div>
+			<div class="tm-flex-center">
+        <i class="fas fa-camera fa-2x"></i>
+        <h1>OpenGL Scene</h1>
+        <p class="tm-mb-0" style="text-align: right;">
+          For my CMP203 project in second year, I was required to create a 3D scene demonstrating a number of rendering techniques in OpenGL.
+          I chose to build a Doctor Who based scene that demonstrated use of techniques like advanced lighting with shadows, the stencil buffer, the matrix stack and multiple cameras.
+          Again, this was all done through code using legacy fixed-funcion OpenGL.
+        </p>
+      </div>
+		</section>
+
+    <section class="tm-about tm-p-50 tm-mb-50 tm-bgcolor-3 tm-border-rounded">
+			<div class="tm-flex-center">
+        <i class="fas fa-cube fa-2x"></i>
+        <h1>Multithreaded 3D Renderer</h1>
+        <p class="tm-mb-0" style="text-align: left;">
+          For my CMP202 module in second year, I was required to write an application that could make use of multiple threads, both on the CPU and GPU.
+          For this assignment, I chose to build a 3D renderer capable of utilising both the CPU and GPU efficiently accross many threads to produce a fast render.
+          While working on this, I learned how to build a 3D rendering pipeline from scratch, first with vertex calculations and then pixel calculations and rasterisation.
+          For this project, I used libraries only for displaying the result and the GUI in a window, as well as a Windows library for accessing the GPU.
+        </p>
+      </div>
+      <div>
+				<img src="img/202.png" class="tm-border-rounded"" width=90% align="right"">
+			</div>
+		</section>
+
+    <section class="tm-about tm-p-50 tm-mb-50 tm-bgcolor-3 tm-border-rounded">
+      <div>
+				<img src="img/bts.png" class="tm-border-rounded"" width=90%>
+			</div>
+			<div class="tm-flex-center">
+        <i class="fas fa-gamepad fa-2x"></i>
+        <h1>BTS Tax Fraud Among Us</h1>
+        <p class="tm-mb-0" style="text-align: right;">
+          In the CMP208 module in second year, I worked alongside a classmate to build a game using the university's own library, GEF.
+          The result was BTS Tax Fraud Among Us, a game similar to Among Us but themed around catching the BTS member who had committed tax fraud.
+          The framework GEF was originally designed for the PlayStation Vita, so while completing this project I had to implement features like controller support and ensure cross-platform compatability.
+          We also built in-depth and efficient NPC management systems and a Minigame system that allowed the player to complete tasks to find clues.
+        </p>
+      </div>
+		</section>
+
+    <section class="tm-about tm-p-50 tm-mb-50 tm-bgcolor-3 tm-border-rounded">
+			<div class="tm-flex-center">
+        <i class="fas fa-cubes fa-2x"></i>
+        <h1>Dominia Minecraft Server</h1>
+        <p class="tm-mb-0" style="text-align: left;">
+          Over the summer of 2023, I became the lead developer of the geopolitical factions Minecraft server Dominia.
+          For this role, I was required to write a number of plugins in Java using the Spigot API.
+          The largest of these plugins was a custom Factions system that allows players to claim land and engage in diplomacy.
+          Standing at around 10,000 lines of code, this is one of the largest personal projects I have completed, and is only one of the many plugins I have developed for the server.
+          As well as being the lead developer, I also manage the root server itself and set up the entire network on a remote dedicated server utilising software like nginx for web hosting, CloudFlare encryption and attack mitigation and BungeeCord for transferring players between different game servers on the network.
+          You can find the interactive map showcasing my plugin <a href="https://map.dominia.xyz/">here</a>.
+        </p>
+      </div>
+      <div>
+				<img src="img/dominia.png" class="tm-border-rounded"" width=90% align="right"">
+			</div>
+		</section>
+
+    <section class="tm-about tm-p-50 tm-mb-50 tm-bgcolor-3 tm-border-rounded">
+      <div>
+				<img src="img/teapot-alpha.png" class="tm-border-rounded"" width=90%>
+			</div>
+			<div class="tm-flex-center">
+        <i class="fas fa-mug-hot fa-2x"></i>
+        <h1>teapot</h1>
+        <p class="tm-mb-0" style="text-align: right;">
+          Over the past few months, I have been working on a personal project called teapot. My aim with this project is to create a reasonably well-featured 3D game engine.
+          Currently, I have completed a couple of prototypes as a sort of proof of concept, and am taking it forward into what will hopefully be its final iteration in my CMP316 module.
+          The image attached shows teapot alpha, the first iteration of the application.
+          This was focussed on model loading and 3D rendering in programmable pipeline modern OpenGL, but I eventually ended up rewriting it into teapot beta because I didn't feel like this version was hugely expandable.
+          The current version of teapot is very focussed on expandability, and I am taking a highly modular approach.
+        </p>
+      </div>
+		</section>
+
+    <section class="tm-about tm-p-50 tm-mb-50 tm-bgcolor-3 tm-border-rounded">
+			<div class="tm-flex-center">
+        <i class="fas fa-tree fa-2x"></i>
+        <h1>Suspended Sky</h1>
+        <p class="tm-mb-0" style="text-align: left;">
+          During lockdown, I decided to try out Unreal Engine and basically just dove straight into making a game, learning as I went along.
+          Although I am not 100% happy with how I did things now, I think it was a valuable experience and was the first time I had really finished making a game in a major engine.
+          The game consists of a number of levels that I put together using my own low-poly assets from Blender and the player has to navigate through them with a grappling hook, avoiding obstacles and trying not to fall into the sea that sits below the floating levels.
+          I was inspired a lot by games like Clustertruck and wanted to create something that was satisfying to play yet not too complex.
+          I also used this as an opportunity to experiment with technology like ray tracing.
+        </p>
+      </div>
+      <div>
+				<img src="img/suspendedsky.png" class="tm-border-rounded"" width=90% align="right"">
+			</div>
+		</section>
+
+    <section class="tm-about tm-p-50 tm-mb-50 tm-bgcolor-3 tm-border-rounded">
+      <div>
+				<img src="img/college.png" class="tm-border-rounded"" width=90%>
+			</div>
 			<div class="tm-flex-center">
         <i class="fas fa-school fa-2x"></i>
-        <h1>University Work</h1>
-        <p class="tm-subtitle">Computer Games Technology Student</p>
+        <h1>NPA Level 6 Project</h1>
+        <p class="tm-mb-0" style="text-align: right;">
+          While in 6th year, I chose to do a Game Development NPA college course through the school.
+          As the final project, I created a top-down 2D adventure game in a tool called GDevelop, a code-free 2D game creator.
+          The aim of the game is to complete levels by finding the key in a chest and using it to unlock the next level, while fighting off any potential enemies.
+        </p>
       </div>
 		</section>
 
